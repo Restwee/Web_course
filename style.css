@@ -1,0 +1,205 @@
+/* style.css */
+
+body {
+    font-family: Arial; 
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  /* Labs styling */
+  
+  .labs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .lab {
+    background: #f2f2f2;
+    padding: 20px;
+    width: 30%;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .lab h3 {
+    color: #333;
+  }
+  
+  .lab p {
+    color: #555;
+  }
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+  body  {
+      background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+    background-size:cover;
+          -webkit-animation: slidein 100s;
+          animation: slidein 100s;
+  
+          -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  
+          -webkit-animation-direction: alternate;
+          animation-direction: alternate;              
+  }
+  
+  @-webkit-keyframes slidein {
+  from {background-position: top; background-size:3000px; }
+  to {background-position: -100px 0px;background-size:2750px;}
+  }
+  
+  @keyframes slidein {
+  from {background-position: top;background-size:3000px; }
+  to {background-position: -100px 0px;background-size:2750px;}
+  
+  }
+  
+  
+  
+  .center
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(75, 75, 250, 0.3);
+    border-radius: 3px;
+  }
+  .center h1{
+    text-align:center;
+    color:white;
+    font-family: 'Source Code Pro', monospace;
+    text-transform:uppercase;
+  }
+
+/* style.css */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+
+  .schedule-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.schedule-table caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: #f2f2f2
+}
+
+.schedule-table th {
+    background-color: #f2f2f2;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.schedule-table th:first-child, .schedule-table td:first-child {
+    text-align: left;
+}
+.schedule-table .highlight {
+    background-color: #dcdf0f;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+.schedule-table .border-top {
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+
+.schedule-table .border-bottom {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+
+.schedule-table .end {
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+.schedule-table .sides {
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+}
